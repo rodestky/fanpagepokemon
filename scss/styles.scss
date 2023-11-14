@@ -444,14 +444,7 @@ hr {
     }
 
     .carrusel {
-        width: 100%;
-        margin: 0;
-        display: flex;
-        justify-content: center;
-        align-items: start;
-        max-width: 70%;
-        background-size: cover;
-        transform-style: preserve-3d;
+        display: none;
     }
 
     .centered-paragraph {
@@ -473,17 +466,6 @@ hr {
         /* Hacer el carrusel a lo ancho de la pantalla */
         max-width: 50%;
         /* Hacer que las imágenes se ajusten al ancho de la pantalla */
-    }
-
-    .btns {
-        margin-top: 20px;
-
-        /* Ajustar el espacio entre el carrusel y los botones */
-        .btn {
-            width: 40px;
-            /* Reducir el tamaño de los botones */
-            height: 40px;
-        }
     }
 
 }
