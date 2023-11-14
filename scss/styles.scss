@@ -33,11 +33,9 @@
         border-radius: 10px;
     }
 
-    .box {
-        width: 100%;
-        /* Hacer el carrusel a lo ancho de la pantalla */
-        max-width: 50%;
-        /* Hacer que las imágenes se ajusten al ancho de la pantalla */
+    .destacas {
+        text-align: center;
+        background: $colorPie;
     }
 
 }
