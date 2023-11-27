@@ -1,4 +1,5 @@
-.bodyp {
+// Definir un mixin para los estilos de fondo
+@mixin background-styles {
     width: 100%;
     height: 100%;
     background: url(../img/destpo.jpg);
@@ -6,15 +7,31 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-.tipokedex {
+
+// Definir un mixin para los estilos de la Pokédex
+@mixin pokedex-styles {
     margin-top: 4rem;
     font-family: 'Roboto', sans-serif;
     font-size: 3rem;
     color: #f70000;
-
 }
-.cardp {
+
+// Definir un mixin para los estilos de la tarjeta
+@mixin card-styles {
     margin-right: 10px;
     position: relative;
     margin-top: 0px;
+}
+
+// Aplicar los mixins a los selectores correspondientes
+.bodyp {
+    @include background-styles;
+}
+
+.tipokedex {
+    @include pokedex-styles;
+}
+
+.cardp {
+    @include card-styles;
 }
